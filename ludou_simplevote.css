@@ -1,0 +1,49 @@
+#useraction {
+	clear: both;
+	display: block;
+	font-size: 12px;
+	height: 50px;
+	margin: 20px auto;
+	width: 101px;
+}
+#ajax_recommendlink {
+	background: url("img/recommend.gif") no-repeat scroll 0 0 transparent;
+	height: 50px;
+	text-align: center;
+	width: 100px;
+}
+#recommendv {
+	color: #FFFFFF;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: 700;
+	height: 26px;
+	line-height: 26px;
+}
+#ajax_recommendlink ul.recommend_act {
+	margin:0;
+	padding:0;
+	border: 0 none;
+}
+#ajax_recommendlink ul.recommend_act li {
+	background: none repeat scroll 0 0 transparent;
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: 50%;
+	list-style: none;
+}
+ul.recommend_act li a#recommend_add, ul.recommend_act li a#recommend_subtract {
+	background: url("img/rec_add.gif") no-repeat scroll 2px 50% transparent;
+	height: 24px;
+	line-height: 24px;
+	margin: 0;
+	padding: 0 0 0 15px;
+	text-decoration:none;
+}
+ul.recommend_act li a#recommend_add:hover, ul.recommend_act li a#recommend_subtract:hover {
+	text-decoration:underline;
+}
+ul.recommend_act li a#recommend_subtract {
+	background-image: url("img/rec_subtract.gif") !important;
+}
